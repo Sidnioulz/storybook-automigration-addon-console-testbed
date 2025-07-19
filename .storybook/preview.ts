@@ -11,7 +11,7 @@ export const parameters = {
   },
 }
 
-export const beforeEach = () => {
+export function beforeEach () {
   // Existing code.
   const frog = 'frog';
   assert(frog === 'frog', 'Frog should be frog');
